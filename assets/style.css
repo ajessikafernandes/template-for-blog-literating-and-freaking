@@ -1,0 +1,180 @@
+body {
+  font-family: "Mukta", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  line-height: 3;
+  font-weight: 200;
+  font-size: 1.1rem;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #c8c5c5;
+}
+
+p {
+  line-height: 2rem;
+  font-size: 1.1rem;
+}
+
+.text-body {
+  line-height: 2rem;
+  font-size: 1.1rem;
+  font-family: sans-serif;
+  text-align: justify;
+}
+
+.h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.img-fluid {
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.banner-image {
+  max-width: 1100px;
+  max-height: 1100px;
+  padding-bottom: 100px;
+}
+
+.banner-post, {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 0;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.btn {
+  font-size: 15px;
+  text-decoration: none !important;
+  color: black;
+}
+
+.btn:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.btn-dark {
+  position: relative;
+  color: white;
+  background-color: #990000;
+  border: none;
+}
+
+.btn-dark:hover {
+  position: relative;
+  color: white;
+  background-color: #990000;
+  opacity: 0.8;
+}
+
+.site-section {
+  padding: 2.5em 0;
+}
+
+.mr-2, .mx-2 {
+  margin-right: 0.5rem !important;
+}
+
+.img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+.card, .card:hover {
+  box-shadow: 0 0 1em #dfdfdf;
+}
+
+.card-title, .card-title:hover, .h5, .h5:hover, .a, .a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.card-img-top:hover{
+  opacity: 0.8;
+}
+
+.card-columns {
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+
+  @include media-breakpoint-only(md) {
+    column-count: 3;
+  }
+
+  @include media-breakpoint-only(sm) {
+    column-count: 2;
+  }
+}
+
+.text-footer, .text-footer a {
+  color: rgba(213, 213, 213, 0.43);
+  font-size: 12px;
+}
+
+.text-footer-link a {
+  color: rgba(213, 213, 213, 0.43);
+  font-size: 16px;
+}
+
+.text-footer-link a:hover {
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.text-footer-context {
+  color: white;
+  font-size: 14px;
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.fa-2x {
+  padding: 6px;
+  color: grey;
+}
+
+.fa-2x:hover {
+  padding: 6px;
+  color: white;
+}
+
+.central {
+  padding: 20px;
+}

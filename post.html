@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Literando e Surtando</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800,300" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="assets/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="container">
+        <div class="row ">
+          <button type="button" class="btn btn-link" role="button">
+            <span onclick="window.location.href='index.html';">Posts</span>
+          </button>
+          <button type="button" class="btn btn-link disabled" role="button">
+            <span onclick="window.location.href='contact.html';">Parcerias</span>
+          </button>
+          <button type="button" class="btn btn-link" role="button">
+            <span onclick="window.location.href='login.html';">Login/Registro</span>
+          </button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <br>
+          <main>
+            <div class="container" style="background: white;">
+              <article>
+                <h1 class="card-title text-center">
+                  <br>
+                  <span th:text="${post.title}">O iluminado</span></h1>
+                <p class="card-subtitle mb-2 text-muted text-center">by
+                  <span th:text="${post.author}">Jessika Fernandes</span>
+                  ·
+                  <span th:text="${post.date}">
+                    <script type="text/javascript">
+                      document.write(new Date().toLocaleDateString());
+                    </script>
+                  </span> · <span th:text="${post.minRead}">5</span> min read
+                </p>
+                <section>
+                  <div class="container">
+                    <p class="card-text text-center" style="margin-top: 40px;"><span th:utext="${post.text}">
+                        <img class="banner-image" src="images/iluminado.jpg">
+                        <br>
+                        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Natoque penatibus et magnis dis parturient. Nunc vel risus commodo viverra
+                          maecenas accumsan lacus vel facilisis. Nunc vel risus commodo viverra maecenas accumsan lacus vel facilisis. In ante metus dictum at. Vitae congue mauris rhoncus aenean vel elit. Amet venenatis urna cursus eget nunc
+                          scelerisque viverra mauris. Ut tortor pretium viverra suspendisse potenti nullam ac. Diam sit amet nisl suscipit. Urna duis convallis convallis tellus id. Neque vitae tempus quam pellentesque. Enim eu turpis egestas pretium
+                          aenean pharetra magna ac placerat. A diam maecenas sed enim. Velit aliquet sagittis id consectetur purus. Proin sed libero enim sed faucibus turpis in eu.
+                        </p>
+                        <p class="text-justify">
+                          Et sollicitudin ac orci phasellus egestas. Amet nisl purus in mollis nunc sed id. Velit sed ullamcorper morbi tincidunt ornare. Sit amet aliquam id diam maecenas. Cursus eget nunc scelerisque viverra mauris in aliquam sem
+                          fringilla. Blandit massa enim nec dui nunc mattis enim ut. Adipiscing enim eu turpis egestas pretium aenean pharetra magna. Turpis cursus in hac habitasse. Integer vitae justo eget magna fermentum iaculis. Venenatis tellus
+                          in metus vulputate. Commodo ullamcorper a lacus vestibulum. Nibh tellus molestie nunc non blandit massa enim nec dui. Ut pharetra sit amet aliquam id diam. Etiam non quam lacus suspendisse.
+                        </p>
+                        <p class="text-justify">
+                          Euismod elementum nisi quis eleifend quam adipiscing vitae. Turpis egestas integer eget aliquet nibh. Sociis natoque penatibus et magnis dis parturient. Interdum posuere lorem ipsum dolor sit amet. Diam sit amet nisl
+                          suscipit.
+                          Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. In cursus turpis massa tincidunt. Aliquet sagittis id consectetur purus ut. Adipiscing enim eu turpis egestas pretium aenean. Nisi vitae suscipit tellus
+                          mauris a diam maecenas sed enim. Elit ut aliquam purus sit amet luctus venenatis. Aliquet nibh praesent tristique magna sit. Et ligula ullamcorper malesuada proin libero nunc. A erat nam at lectus urna duis. Sit amet
+                          volutpat
+                          consequat mauris. Metus dictum at tempor commodo ullamcorper. Nibh mauris cursus mattis molestie. Mauris pharetra et ultrices neque ornare aenean euismod elementum. Ipsum dolor sit amet consectetur adipiscing. Eu ultrices
+                          vitae auctor eu augue.</p>
+
+                        <p class="text-justify">
+                          Turpis egestas integer eget aliquet nibh praesent tristique. Maecenas sed enim ut sem. Neque viverra justo nec ultrices dui sapien eget mi proin. Convallis tellus id interdum velit laoreet. Cras ornare arcu dui vivamus. Eget
+                          egestas purus viverra accumsan in nisl nisi. Scelerisque purus semper eget duis at tellus at urna condimentum. Quam quisque id diam vel quam elementum pulvinar. Aliquam sem et tortor consequat id. Donec adipiscing tristique
+                          risus nec feugiat in fermentum posuere urna. Id aliquet lectus proin nibh nisl. Posuere lorem ipsum dolor sit amet consectetur. Nulla facilisi etiam dignissim diam quis enim lobortis.
+                        </p>
+                        <p class="text-justify">
+                          Lorem donec massa sapien faucibus. Sit amet consectetur adipiscing elit. Felis eget velit aliquet sagittis id. Sit amet purus gravida quis blandit turpis cursus. In eu mi bibendum neque egestas congue. Dui sapien eget mi
+                          proin
+                          sed libero enim sed faucibus. Quam lacus suspendisse faucibus interdum posuere lorem ipsum. Aliquet lectus proin nibh nisl condimentum id. Vitae et leo duis ut diam quam nulla porttitor. Nisl tincidunt eget nullam non nisi
+                          est
+                          sit amet facilisis.</p>
+                      </span></p>
+                    <br>
+                    <div class="container text-center">
+                      <div class="row text-center">
+                        <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fwww.facebook.com%2Fajessikafernandes%2F&layout=button&size=large&width=121&height=28&appId" width="121" height="28"
+                          style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                      </div>
+                      <br>
+                    </div>
+                </section>
+              </article>
+            </div>
+          </main>
+        </div>
+      </div>
+    </div>
+    <br>
+  </section>
+  <footer>
+    <div class="site-section bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <h3 class="text-footer-context">Cadastre-se</h3>
+            <p class="text-footer">Fique por dentro e receba novidades, e promoções em primeira mão.</p>
+            <form action="#" class="form-subscribe">
+              <input type="email" class="form-control mb-3" placeholder="Enter Email">
+              <input type="submit" class="btn btn-dark" value="Subscribe">
+            </form>
+          </div>
+
+          <div class="col-lg-3 mx-auto">
+            <h3 class="text-footer-context">Links</h3>
+            <ul class="list-unstyled">
+              <li class="text-footer-link"><a href="index.html">Posts</a></li>
+              <li class="text-footer-link"><a href="contact.html">Parcerias</a></li>
+              <li class="text-footer-link"><a href="politic.html">Politica de Segurança</a></li>
+              <li class="text-footer-link"><a href="termos.html">Termos de Uso</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4">
+            <h3 class="text-footer-context">Siga-nos</h3>
+            <a href="https://www.skoob.com.br/usuario/6878157-jessika"><i class="fas fa-book-dead fa-2x"></i></a>
+            <a href="https://www.amazon.com.br/Livros/b/?ie=UTF8&node=6740748011&ref_=nav_cs_books"><i class="fab fa-amazon fa-2x"></i></a>
+            <a href="https://www.instagram.com/literandoesurtando"><i class="fab fa-instagram fa-2x"></i></a>
+            <a href="https://www.goodreads.com/user/show/114842671-j-ssika-fernandes"><i class="fab fa-goodreads fa-2x"></i></a>
+            <i class="fas fa-envelope-square fa-2x"></i>
+          </div>
+        </div>
+        <hr>
+        <p class="text-footer text-center">
+          Desenvolvido por <a href="https://www.instagram.com/ajessikafernandes/?hl=pt-br" target="_blank">Jessika Fernandes</a> |
+          Copyright ©
+          <script type="text/javascript">
+            document.write(new Date().getFullYear());
+          </script>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+</body>
+
+</html>
