@@ -2,6 +2,12 @@
 
 Template criado para o blog sobre livros e resenhas, com foco em Terror, Sci-fi, Fantasia, Distopia, HQ e Clássicos.
 
+# Link para acesso da Demo
+
+Para acessar a [demo-blog](https://blog-literando-e-surtando.herokuapp.com/index.html) do projeto: https://blog-literando-e-surtando.herokuapp.com/index.html
+
+# Redes Sociais
+
 Instagram:
 https://www.instagram.com/literandoesurtando
 
@@ -17,6 +23,7 @@ https://www.goodreads.com/user/show/114842671-j-ssika-fernandes
   - Html5
   - CSS3
   - JS
+  - PHP
 
 ### Montando ambiente:
 
