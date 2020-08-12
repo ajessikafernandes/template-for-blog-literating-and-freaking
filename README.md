@@ -6,6 +6,24 @@ Template criado para o blog sobre livros e resenhas, com foco em Terror, Sci-fi,
 
 Para acessar a [demo-blog](https://blog-literando-e-surtando.herokuapp.com/index.html) do projeto: https://blog-literando-e-surtando.herokuapp.com/index.html
 
+# Mapa do blog
+
+Página principal: https://blog-literando-e-surtando.herokuapp.com/index.html
+
+Página para cadastrar novo post : https://blog-literando-e-surtando.herokuapp.com/postForm.html
+
+Página modelo post: https://blog-literando-e-surtando.herokuapp.com/post.html
+
+Página para contato: https://blog-literando-e-surtando.herokuapp.com/contact.html
+
+Página para login: https://blog-literando-e-surtando.herokuapp.com/login.html
+
+Página de politica : https://blog-literando-e-surtando.herokuapp.com/politic.html
+
+Página de termos : https://blog-literando-e-surtando.herokuapp.com/termos.html
+
+Página simulando Error404 : https://blog-literando-e-surtando.herokuapp.com/error.html
+
 # Redes Sociais
 
 Instagram:
