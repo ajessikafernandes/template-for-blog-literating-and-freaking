@@ -3,40 +3,31 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Blog</title>
+  <title>Literando e Surtando</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800,300" rel="stylesheet" type="text/css">
   <link rel="stylesheet" type="text/css" href="assets/style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 
 <body>
   <header>
     <nav class="navbar">
-      <div class="container-fluid">
-        <div class="text-right">
-          <span class="navbar-brand mb-0 h1">
-            <a href="index.html" class="h2">Blog</a><a style="color: red; font-size: 30px">.</a>
-          </span>
-        </div>
-        <div class="text-left">
+      <div class="container">
+        <div class="row ">
           <button type="button" class="btn btn-link disabled" role="button">
-            <span>Home</span>
+            <span>Posts</span>
           </button>
           <button type="button" class="btn btn-link" role="button">
-            <span>Dropdown</span>
+            <span onclick="window.location.href='contact.html';">Parcerias</span>
           </button>
           <button type="button" class="btn btn-link" role="button">
-            <span>About</span>
-          </button>
-          <button type="button" class="btn btn-link" role="button">
-            <span>Contact</span>
-          </button>
-          <button type="button" class="btn btn-link" role="button">
-            <span>Login/Register</span>
+            <span onclick="window.location.href='login.html';">Login/Registro</span>
           </button>
         </div>
       </div>
@@ -44,96 +35,174 @@
   </header>
 
   <section>
-    <div class="container-fluid">
-      <div class="container pt-5 banner">
-        <div class="row align-items-center text-center text-md-left">
-          <div class="col-lg-4">
-            <h1 class="mb-3 display-3">Tell Your Story to the World</h1>
-            <p>Join with us! Login or Register. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, ex!</p>
-          </div>
-          <div class="col-lg-8">
-            <img src="images/asset-1.png" alt="Image" class="img-fluid">
-          </div>
-        </div>
-      </div>
+
+    <div class="container text-center">
+      <img class="card-img-top"style="opacity: 1; padding-bottom: 50px; padding-top: 50px;" src="images/asset-1.png">
     </div>
 
-    <div class="site-section">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-3">
-            <div class="featured-user  mb-5 mb-lg-0">
-              <h3 class="mb-4">Popular Posts</h3>
-              <ul class="list-unstyled">
-                <li>
-                  <a href="#" class="d-flex align-items-center">
-                    <img src="images/person_1.jpg" alt="Image" class="img-fluid mr-2">
-                    <div class="podcaster">
-                      <span class="d-block">Claire Stanford</span>
-                      <span class="small">32,420 podcasts</span>
-                    </div>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="d-flex align-items-center">
-                    <img src="images/person_2.jpg" alt="Image" class="img-fluid mr-2">
-                    <div class="podcaster">
-                      <span class="d-block">Dianne Winston</span>
-                      <span class="small">12,381 podcasts</span>
-                    </div>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="d-flex align-items-center">
-                    <img src="images/person_3.jpg" alt="Image" class="img-fluid mr-2">
-                    <div class="podcaster">
-                      <span class="d-block">Borris Larry</span>
-                      <span class="small">9,291 podcasts</span>
-                    </div>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="d-flex align-items-center">
-                    <img src="images/person_4.jpg" alt="Image" class="img-fluid mr-2">
-                    <div class="podcaster">
-                      <span class="d-block">Garry Smith</span>
-                      <span class="small">3,291 podcasts</span>
-                    </div>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="d-flex align-items-center">
-                    <img src="images/person_5.jpg" alt="Image" class="img-fluid mr-2">
-                    <div class="podcaster">
-                      <span class="d-block">Gerson Stack</span>
-                      <span class="small">1,092 podcasts</span>
-                    </div>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="d-flex align-items-center">
-                    <img src="images/person_6.jpg" alt="Image" class="img-fluid mr-2">
-                    <div class="podcaster">
-                      <span class="d-block">Jenna Stone</span>
-                      <span class="small">911 podcasts</span>
-                    </div>
-                  </a>
-                </li>
-              </ul>
-            </div>
+    <div class="container">
+      <div class="card-columns">
+        <div class="card">
+          <a href="post.html">
+            <img class="card-img-top img-fluid" src="images/iluminado.jpg" alt="Card image cap">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">O iluminado</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">By Mike Smith <span class="sep">/</span> 16 September 2017 <span class="sep">/</span> 1:30:20</small>
           </div>
-
-          <div class="col-lg-9">
-            <div class="text">
-              <h3 class="title-post"><a href="#">Sobre ressacas literárias e como sobreviver a elas!</a></h3>
-              <p>Você já ouvir falar de ressaca literária? Ou até mesmo, já teve uma (ou várias)? Primeiro precisamos apresentar essa velha amiga aos novos leitores ou desavisados. Geralmente ela acontece após você ter terminado aquele livro</p>
-            </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top img-fluid" src="images/caminho-para-liberdade.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">By Mike Smith <span class="sep">/</span> 16 September 2017 <span class="sep">/</span> 1:30:20</small>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top img-fluid" src="images/jardim-secreto.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">By Mike Smith <span class="sep">/</span> 16 September 2017 <span class="sep">/</span> 1:30:20</small>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top img-fluid" src="images/mulher-na-janela.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">By Mike Smith <span class="sep">/</span> 16 September 2017 <span class="sep">/</span> 1:30:20</small>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top img-fluid" src="images/persepolis.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">By Mike Smith <span class="sep">/</span> 16 September 2017 <span class="sep">/</span> 1:30:20</small>
+          </div>
+        </div>
+        <div class="card">
+          <a href="#">
+            <img class="card-img-top img-fluid" src="images/malorie.jpg" alt="Card image cap">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">Sobre ressacas literárias e como sobreviver a elas!</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">By Mike Smith <span class="sep">/</span> 16 September 2017 <span class="sep">/</span> 1:30:20</small>
+          </div>
+        </div>
+        <div class="card">
+          <a href="#">
+            <img class="card-img-top img-fluid" src="images/coraline.png" alt="Card image cap">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">Sobre ressacas literárias e como sobreviver a elas!</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">By Mike Smith <span class="sep">/</span> 16 September 2017 <span class="sep">/</span> 1:30:20</small>
+          </div>
+        </div>
+        <div class="card">
+          <a href="#">
+            <img class="card-img-top img-fluid" src="images/flores-para-algernon.jpg" alt="Card image cap">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">Sobre ressacas literárias e como sobreviver a elas!</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">By Mike Smith <span class="sep">/</span> 16 September 2017 <span class="sep">/</span> 1:30:20</small>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top img-fluid" src="images/passarinha.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">By Mike Smith <span class="sep">/</span> 16 September 2017 <span class="sep">/</span> 1:30:20</small>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top img-fluid" src="images/o-hobbit.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">By Mike Smith <span class="sep">/</span> 16 September 2017 <span class="sep">/</span> 1:30:20</small>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top img-fluid" src="images/pequeno-principe.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">By Mike Smith <span class="sep">/</span> 16 September 2017 <span class="sep">/</span> 1:30:20</small>
+          </div>
+        </div>
+        <div class="card">
+          <a href="#">
+            <img class="card-img-top img-fluid" src="images/sol-para-todos.png" alt="Card image cap">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">Sobre ressacas literárias e como sobreviver a elas!</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">By Mike Smith <span class="sep">/</span> 16 September 2017 <span class="sep">/</span> 1:30:20</small>
+          </div>
+        </div>
+        <div class="card">
+          <a href="#">
+            <img class="card-img-top img-fluid" src="images/perdida.jpg" alt="Card image cap">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">Sobre ressacas literárias e como sobreviver a elas!</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">By Mike Smith <span class="sep">/</span> 16 September 2017 <span class="sep">/</span> 1:30:20</small>
           </div>
         </div>
       </div>
     </div>
   </section>
+  <footer>
+    <div class="site-section bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <h3 class="text-footer-context">Cadastre-se</h3>
+            <p class="text-footer">Fique por dentro e receba novidades, e promoções em primeira mão.</p>
+            <form action="#" class="form-subscribe">
+              <input type="email" class="form-control mb-3" placeholder="Enter Email">
+              <input type="submit" class="btn btn-dark" value="Subscribe">
+            </form>
+          </div>
 
+          <div class="col-lg-3 mx-auto">
+            <h3 class="text-footer-context">Links</h3>
+            <ul class="list-unstyled">
+              <li class="text-footer-link"><a href="index.html">Posts</a></li>
+              <li class="text-footer-link"><a href="contact.html">Parcerias</a></li>
+              <li class="text-footer-link"><a href="politic.html">Politica de Segurança</a></li>
+              <li class="text-footer-link"><a href="termos.html">Termos de Uso</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4">
+            <h3 class="text-footer-context">Siga-nos</h3>
+            <a href="https://www.skoob.com.br/usuario/6878157-jessika"><i class="fas fa-book-dead fa-2x"></i></a>
+            <a href="https://www.amazon.com.br/Livros/b/?ie=UTF8&node=6740748011&ref_=nav_cs_books"><i class="fab fa-amazon fa-2x"></i></a>
+            <a href="https://www.instagram.com/literandoesurtando"><i class="fab fa-instagram fa-2x"></i></a>
+            <a href="https://www.goodreads.com/user/show/114842671-j-ssika-fernandes"><i class="fab fa-goodreads fa-2x"></i></a>
+            <i class="fas fa-envelope-square fa-2x"></i>
+          </div>
+        </div>
+        <hr>
+        <p class="text-footer text-center">
+          Desenvolvido por <a href="https://www.instagram.com/ajessikafernandes/?hl=pt-br" target="_blank">Jessika Fernandes</a> |
+          Copyright ©
+          <script type="text/javascript">
+            document.write(new Date().getFullYear());
+          </script>
+        </p>
+      </div>
+    </div>
+  </footer>
 
 </body>
 
